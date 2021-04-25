@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colour Blind Camera</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button id="noswap-button">red->red</button>
+  <button id="swaprg-button">red->green</button>
+  <button id="swaprb-button">red->blue</button>
+  <main id="camera">
+    <canvas id="camera-sensor"></canvas>
+    <video id="camera-view" autoplay playsinline hidden></video>
+    <img src="//:0" alt="" id="camera-output">
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
