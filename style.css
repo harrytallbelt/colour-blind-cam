@@ -6,7 +6,7 @@ html, body{
 }
 button {
   width: 33%;
-  height: 40px;
+  height: 80px;
 }
 #camera, #camera-view, #camera-sensor, #camera-output{
     position: fixed;
